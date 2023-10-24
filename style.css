@@ -1,0 +1,101 @@
+ul{
+display: flex;
+justify-content: space-evenly;
+list-style: none;}
+
+
+li:hover {
+    color: blue;
+    border-right: solid blue 10px;
+}
+
+.lescarrés{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.Carré1{
+    height: 80px;
+    width: 80px;
+    background-color: dodgerblue;
+}
+
+.Carré2{
+    height: 80px;
+    width: 80px;
+    background-color: dodgerblue;
+    
+}
+.Carré3{
+    height: 80px;
+    width: 80px;
+    background-color: dodgerblue;
+}
+
+.Carré3:hover{ 
+    animation: 2s linear rond;}
+
+@keyframes rond {
+    0%{transform: rotate(30deg);}
+
+    50%{transform: rotate(60deg);}
+    
+    100%{transform: rotate(90deg); 
+        border-radius: 50%;
+    }
+
+  
+}
+
+
+
+.Carré4{
+    height: 80px;
+    width: 80px;
+    background-color: dodgerblue;
+}
+
+.Carré5{
+    height: 80px;
+    width: 80px;
+    background-color: dodgerblue;
+}
+.animation{height: 100px;
+width: 140px;}
+
+
+h1:hover{
+    animation: 5s linear changement;
+}
+
+@keyframes changement{
+    0%{ 
+    color: blue;
+    background-color: aqua;
+    font-style: italic;}
+
+    25%{
+        color: orange;
+        background-color: red;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    50%{
+        color: green;
+        background-color: darkgreen;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    75%{
+        color: pink;
+        background-color: blueviolet;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+    100%{
+        color: gold;
+        background-color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
